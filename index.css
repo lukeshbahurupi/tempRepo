@@ -1,0 +1,27 @@
+._1{grid-area: a;}
+._2{grid-area: b;}
+._3{grid-area: c;}
+.master{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 'a b c';
+    gap: 10px;
+    border: 2px solid black;
+   padding: 20px;
+   height: 500px;
+   width: 95%;
+}
+.square{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}
+.circle{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
